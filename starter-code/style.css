@@ -1,3 +1,93 @@
-/* This is a multi-line
-comment. Add your CSS code
-from Unit 1 - 5 below  */
+
+h1 {
+	color:rgb(2,132,130);
+	text-align:center;
+	padding:20px;
+	margin-top:15px;
+}
+h2 {
+	color:#ffd700;
+	text-align:center;
+}
+
+nav {
+	float:left;
+	width:100%;
+	text-align: center;
+	background-color:#ffbf00;
+	padding-top:35px;
+	padding-bottom:35px;
+}
+		.instructions {
+			color:white;
+			padding:35px;
+			text-align:center;
+		}
+		.instructions:hover {
+			color:grey;
+		}
+		.game {
+			color:white;
+			padding:35px;
+			text-align: center;
+
+		}
+		.game:hover {
+			color:grey;
+		}
+
+.clearfix:after {
+visibility:hidden;
+display:block;
+content:" ";
+clear:both;
+height:0;
+font-size:0;
+}
+
+body {
+	text-align:center;
+	margin:auto;
+	padding:20px;
+}
+	p {
+	text-align:center;
+	margin:auto;
+	align-content:center;
+	}
+	.board {
+	height:50%;
+	width:50%;
+	align-items:center; 
+	margin:auto;
+	align-content:center;
+	text-align:center;
+}
+	.card {
+	height:200px;
+	width:150px;
+	border:1px;
+	background-color:yellow;
+	border-style:solid;
+	border-radius:10px;
+	border-color:black;
+	float:left;
+	margin:8%;
+	align-content:center;
+	align-items:center;
+	text-align:center;
+}
+
+
+
+
+footer {
+	text-align:center;
+	width:100%;
+	bottom:0;
+	background-color:#808080;
+	clear:both;
+}
+		.name {
+		color:#ff0000;
+		}
