@@ -49,19 +49,20 @@ body {
 	text-align:center;
 	margin:auto;
 	padding:20px;
+	display:block;
 }
 	p {
 	text-align:center;
-	margin:auto;
+	margin:0, 25px, 0, 25px;
 	align-content:center;
 	}
+
 	.board {
 	height:50%;
 	width:50%;
-	align-items:center; 
-	margin:auto;
-	align-content:center;
 	text-align:center;
+	margin:auto;
+	display:block;
 }
 	.card {
 	height:200px;
@@ -71,14 +72,30 @@ body {
 	border-style:solid;
 	border-radius:10px;
 	border-color:black;
-	float:left;
+	margin:8%;
+	text-align:center;
+	display:inline-block;
+}
+
+div .card > img {
+	display:block:;
+	margin:auto;
+}
+
+div #game-board > div {
+	height:200px;
+	width:150px;
+	border:1px;
+	background-color:yellow;
+	border-style:solid;
+	border-radius:10px;
+	border-color:black;
 	margin:8%;
 	align-content:center;
 	align-items:center;
 	text-align:center;
+	display:block;
 }
-
-
 
 
 footer {
